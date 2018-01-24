@@ -1,0 +1,71 @@
+input.formButton{
+	float: left;
+	margin: 1em;
+	width: 10em;  
+	height: 2em;
+}
+
+body{
+	font-family: arial;
+	margin: 3em;
+	background: #6DBDD6;
+}
+
+th,td{
+	margin: 0;
+	text-align: center;
+	border-collapse: collapse;
+	outline: 1px solid #e3e3e3;
+}
+
+td{
+	padding: 5px 10px;
+}
+
+th{
+	background: #666;
+	color: white;
+	padding: 5px 10px;
+}
+
+td:hover{
+	cursor: pointer;
+	background: #FFE658;
+}
+
+td.timetable:active{
+	cursor: pointer;
+	background: #B71427;
+	color: black;
+}
+
+div#menu{
+	margin-top: 2em;
+	border: 0.1em solid black;
+	background: #FFE658;
+	width: 100%; 
+	overflow: auto;
+}
+
+div#menu a{
+	text-decoration: none;
+	color: MediumBlue;
+	display:inline-block;
+	float:left;
+	padding-left:2em;
+	padding-top:1em;
+	padding-bottom:1em;
+	padding-right:2em;
+}
+
+div#menu a.logout{
+	float:right;
+	padding-right:2em;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+div#menu a:hover{
+	background-color: #555;
+    color: white;
+}
